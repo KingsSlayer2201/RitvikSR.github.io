@@ -1,0 +1,42 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+canvas
+{
+  border: 2px solid black;
+  background-color: white;
+  
+}
+
+.cnt
+{
+  position: relative;
+}
+.cnt canvas, #demo
+{
+  position: absolute;
+}
+.cnt canvas, #abt
+{
+  position: absolute;
+}
+
+#abt
+{
+  left: 100px;
+  top: 300px;
+  font-size: 40px;
+  font-family: cursive;
+  display: none;
+}
+
+#demo
+{
+  left: 100px;
+  top: 200px;
+  font-size: 70px;
+  font-family: cursive;
+}
